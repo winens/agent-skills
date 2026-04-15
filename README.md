@@ -7,13 +7,13 @@ A collection of Claude Code skills for git workflows and beyond.
 Install all skills into your local `.claude/skills/` directory:
 
 ```bash
-npx skills winens/agent-skills
+npx skills add winens/agent-skills
 ```
 
 Or install a specific skill:
 
 ```bash
-npx skills winens/agent-skills rebase-worktree-conflicts
+npx skills add winens/agent-skills rebase-worktree-conflicts
 ```
 
 ## Skills
