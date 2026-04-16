@@ -1,6 +1,6 @@
 ---
 name: sqlc-jsonb-joins
-description: Compose relational JOIN results into Go model types using PostgreSQL to_jsonb() with sqlc. Use whenever a sqlc project has JOIN queries producing flat row structs and you want typed model composition instead — accessing results as row.User.Email, row.Order.Item rather than flat fields. Triggers on: sqlc JOIN queries, sqlc.embed failures, "type explosion" in sqlc, model type reuse, composing relational data in Go, to_jsonb with sqlc, reducing JOIN boilerplate, sqlc column name conflicts.
+description: "Compose relational JOIN results into Go model types using PostgreSQL to_jsonb() with sqlc. Use whenever a sqlc project has JOIN queries producing flat row structs and you want typed model composition instead — accessing results as row.User.Email, row.Order.Item rather than flat fields. Triggers on: sqlc JOIN queries, sqlc.embed failures, 'type explosion' in sqlc, model type reuse, composing relational data in Go, to_jsonb with sqlc, reducing JOIN boilerplate, sqlc column name conflicts."
 ---
 
 # sqlc jsonb Composition
