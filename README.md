@@ -1,6 +1,6 @@
 # agent-skills
 
-A collection of Claude Code skills for git workflows and beyond.
+A collection of Claude Code skills for git workflows, database patterns, and beyond.
 
 ## Install
 
@@ -21,6 +21,7 @@ npx skills add winens/agent-skills rebase-worktree-conflicts
 | Skill | Description |
 |---|---|
 | [rebase-worktree-conflicts](skills/rebase-worktree-conflicts/skill.md) | Rebase a worktree branch onto latest main and resolve merge conflicts |
+| [sqlc-jsonb-joins](skills/sqlc-jsonb-joins/SKILL.md) | Compose relational JOIN results into Go model types using PostgreSQL `to_jsonb()` with sqlc |
 
 ## License
 
