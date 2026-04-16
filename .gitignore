@@ -11,6 +11,17 @@
 *.swo
 *~
 
+# Agentic coding tools
+.claude/
+.omc/
+.aider/
+.cursor/
+.copilot/
+.windsurf/
+.cline/
+.augment/
+.gemini/
+
 # Environment
 .env
 .env.*
